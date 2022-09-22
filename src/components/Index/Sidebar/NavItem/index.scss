@@ -1,0 +1,26 @@
+.nav-item{
+  position: relative;
+  height: 80px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  line-height: 80px;
+  font-size: 18px;
+
+  .iconfont{
+    position: absolute;
+    right: 20px;
+    top: 0;
+  }
+
+  &.nav-current{
+    a{
+      color: #23b8ff;
+    }
+  }
+
+  a{
+    &:hover{
+      color: #23b8ff;
+    }
+  }
+}

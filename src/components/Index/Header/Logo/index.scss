@@ -1,0 +1,13 @@
+.header-logo-wrapper{
+  float: left;
+  height: 100%;
+
+  .logo-link{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    margin: 8px 10px 0 0;
+    background: url('../../../../assets/img/logo.png') no-repeat;
+    background-size: 44px 44px;
+  }
+}

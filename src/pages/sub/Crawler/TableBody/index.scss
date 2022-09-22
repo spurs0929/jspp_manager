@@ -1,0 +1,15 @@
+.desc-td{
+  text-align: left;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.btn-td{
+  width: 200px;
+
+  .btn.btn-success,
+  .btn.btn-warning{
+    width: 140px;
+    height: 33px;
+  }
+}

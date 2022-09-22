@@ -1,0 +1,25 @@
+.list-title{
+  height: 60px;
+  border-bottom: solid 1px #ddd;
+  line-height: 60px;
+
+  .title{
+    float: left;
+  }
+
+  .refresh-btn{
+    float: right;
+    cursor: pointer;
+    color: #23b8ff;
+
+    &.hide{
+      display: none;
+    }
+
+    .iconfont{
+      margin-right: 5px;
+    }
+  }
+
+ 
+}
